@@ -5,7 +5,7 @@ production_platform:
 
 deploy:
   override:
-    - production-platform exec shipit-next production-unrestricted --cmd 'kubernetes-deploy ${NAMESPACE} ${CONTEXT} --selector=env=production'
+    - echo 'hiii'
 
 rollback:
   override:
