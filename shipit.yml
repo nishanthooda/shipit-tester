@@ -5,8 +5,10 @@ production_platform:
 
 deploy:
   override:
-    - echo 'hiii'
+    - echo 'hiii deployy'
+  retries_on_timeout: 3
 
 rollback:
   override:
-    - production-platform exec shipit-next production-unrestricted --cmd 'kubernetes-deploy ${NAMESPACE} ${CONTEXT} --selector=env=production'
+    - echo 'hiii roll that back'
+  retries_on_timeout: 2
