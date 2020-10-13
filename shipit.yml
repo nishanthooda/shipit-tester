@@ -5,8 +5,7 @@ production_platform:
 
 deploy:
   override:
-    - ./test_timeout:
-      timeout: 14
+    - ./test_timeout: { timeout: 14 }
   retries_on_timeout: 3
 
 rollback:
