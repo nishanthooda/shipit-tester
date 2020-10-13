@@ -1,0 +1,22 @@
+{
+  "name": "shipit-tester",
+  "version": "1.0.0",
+  "description": "eyo e e e e e e ee e2 e 1 7 81 4 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishanthooda/shipit-tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishanthooda/shipit-tester/issues"
+  },
+  "homepage": "https://github.com/nishanthooda/shipit-tester#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

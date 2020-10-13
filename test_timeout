@@ -1,0 +1,12 @@
+foo=$RANDOM
+
+if [ $((foo%2)) -eq 0 ];
+then
+    echo "num=even, it is $foo, so timeout" | curl -d @- http://localhost:4790/data
+    echo "making it timeout"
+    sleep 20s
+    echo "even";
+else
+    echo "num=odd, it is odd" | curl -d @- http://localhost:4790/data
+    echo "odd";
+fi
