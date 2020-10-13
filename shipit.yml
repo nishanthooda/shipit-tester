@@ -5,7 +5,8 @@ production_platform:
 
 deploy:
   override:
-    - echo 'hiii deployy'
+    - ./test_timeout
+    timeout: 14
   retries_on_timeout: 3
 
 rollback:
