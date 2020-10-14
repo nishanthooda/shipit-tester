@@ -8,7 +8,7 @@ e
 ede
 ee
 e2q
-eff
+effe
 1
 7eg
 81e
