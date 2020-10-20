@@ -7,6 +7,6 @@ then
     sleep 20s
     echo "done!"
 else
-    echo "echo num is even, sso finishing up deploy right now"
+    echo "echo num is odd, sso finishing up deploy right now"
     echo "done!"
 fi
